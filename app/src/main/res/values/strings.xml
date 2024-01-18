@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tokopaerbe</string>
+    <string name="description_google_logo">Google logo</string>
+    <string name="register_text">Ini register</string>
+    <string name="login_text">Ini login</string>
+    <string name="onboarding_text">Ini onboarding</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="syarat_ketentuan_masuk"><![CDATA[Dengan masuk disini, kamu menyetujui Syarat & Ketentuan serta Kebijakan Privasi TokoPhincon.]]></string>
+    <string name="syarat_ketentuan_daftar"><![CDATA[Dengan daftar disini, kamu menyetujui Syarat & Ketentuan serta Kebijakan Privasi TokoPhincon.]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
