@@ -6,14 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".postlogin.DashboardFragment">
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="82dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="124dp"
-        android:src="@drawable/dashboard_logo_small"
+        android:layout_width="306dp"
+        android:layout_height="282dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/dashboard_animation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

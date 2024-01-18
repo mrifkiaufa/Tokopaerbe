@@ -65,7 +65,7 @@ class LoginFragment : Fragment() {
                 binding!!.validasiPassword.text = "Password tidak valid"
                 binding!!.validasiPassword.setTextColor(ContextCompat.getColor(requireContext(), android.R.color.holo_red_dark))
             } else {
-                it.findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment)
+                it.findNavController().navigate(R.id.action_loginFragment_to_barFragment)
             }
         }
     }

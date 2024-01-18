@@ -24,6 +24,10 @@ class ProfileFragment : Fragment() {
 
         setUpAction()
 
+        binding!!.roundProfile.setOnClickListener {
+            
+        }
+
         return binding?.root
     }
 
@@ -32,7 +36,7 @@ class ProfileFragment : Fragment() {
             val nama = binding!!.nameEditText.text.toString()
 
             if (nama.isNotBlank()) {
-                it.findNavController().navigate(R.id.action_profileFragment_to_dashboardFragment)
+                it.findNavController().navigate(R.id.action_profileFragment_to_barFragment)
             }
         }
     }

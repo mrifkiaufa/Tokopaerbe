@@ -1,6 +1,7 @@
 package com.aufa.tokopaerbe
 
 import android.os.Bundle
+import android.text.Html
 import android.util.Patterns
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -34,7 +35,7 @@ class RegisterFragment : Fragment() {
 //        if (email.isBlank() && password.isBlank()) {
 //            registerBtn.isEnabled = false
 //        }
-
+        
         binding!!.daftarButton.setOnClickListener{
             val email = binding!!.emailEditText.text.toString()
             val emailMessage = binding!!.validasiEmail.text.toString()
