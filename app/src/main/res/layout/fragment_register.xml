@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:fitsSystemWindows="true"
         android:fontFamily="@font/poppins_regular"
-        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar_register"
             android:layout_width="match_parent"
@@ -23,6 +23,15 @@
             app:title="Daftar"
             app:titleCentered="true" />
     </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appbar_register" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/input_email"
@@ -99,12 +108,24 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_regular"
-        android:textColor="@color/white"
         android:text="Daftar"
+        android:textColor="@color/white"
         app:cornerRadius="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/validasi_password" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/atau"
+        app:layout_constraintEnd_toStartOf="@+id/atau"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/atau" />
 
     <TextView
         android:id="@+id/atau"
@@ -117,6 +138,18 @@
         app:layout_constraintStart_toStartOf="@+id/daftar_button"
         app:layout_constraintTop_toBottomOf="@+id/daftar_button" />
 
+    <View
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="10dp"
+        android:background="@color/gray"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/atau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/atau"
+        app:layout_constraintTop_toTopOf="@+id/atau" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/masuk_button"
         android:layout_width="match_parent"
@@ -125,15 +158,15 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/poppins_regular"
-        app:backgroundTint="@color/white"
-        android:textColor="@color/on_primary"
-        app:strokeColor="@color/gray"
-        app:strokeWidth="1dp"
         android:text="Masuk"
+        android:textColor="@color/on_primary"
+        app:backgroundTint="@color/white"
         app:cornerRadius="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/atau" />
+        app:layout_constraintTop_toBottomOf="@+id/atau"
+        app:strokeColor="@color/gray"
+        app:strokeWidth="1dp" />
 
     <TextView
         android:id="@+id/syarat_ketentuan"
@@ -148,10 +181,9 @@
         android:fontFamily="@font/poppins_regular"
         android:gravity="center_horizontal|center_vertical"
         android:lineSpacingExtra="-2sp"
-        android:textSize="12sp"
         android:text="@string/syarat_ketentuan_daftar"
+        android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/masuk_button"
         app:layout_constraintStart_toStartOf="@+id/masuk_button"
         app:layout_constraintTop_toBottomOf="@+id/masuk_button" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,12 +10,12 @@ import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.aufa.tokopaerbe.R
 import com.aufa.tokopaerbe.databinding.FragmentFirstScreenBinding
+import com.aufa.tokopaerbe.databinding.FragmentOnboardingBinding
 import com.aufa.tokopaerbe.databinding.FragmentThirdScreenBinding
-import com.aufa.tokopaerbe.databinding.FragmentViewPagerBinding
 
 class ThirdScreen : Fragment() {
     private var bindingThirdScreen: FragmentThirdScreenBinding? = null
-    private var bindingViewPager: FragmentViewPagerBinding? = null
+//    private var bindingViewPager: FragmentOnboardingBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,11 +23,13 @@ class ThirdScreen : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         bindingThirdScreen = FragmentThirdScreenBinding.inflate(inflater, container, false)
-        bindingViewPager = FragmentViewPagerBinding.inflate(inflater, container, false)
         val view = bindingThirdScreen?.root
 
-        val myTextView: TextView? = view?.findViewById(R.id.selanjutnya)
-        myTextView?.visibility = View.GONE
+//        bindingViewPager = FragmentOnboardingBinding.inflate(inflater, container, false)
+//
+//        if(bindingViewPager!!.viewPager.currentItem == 2) {
+//            bindingViewPager!!.selanjutnya.visibility = View.GONE
+//        }
 
         return view
     }

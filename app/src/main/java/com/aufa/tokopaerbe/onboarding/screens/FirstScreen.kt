@@ -11,12 +11,11 @@ import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.aufa.tokopaerbe.R
 import com.aufa.tokopaerbe.databinding.FragmentFirstScreenBinding
-import com.aufa.tokopaerbe.databinding.FragmentViewPagerBinding
+import com.aufa.tokopaerbe.databinding.FragmentOnboardingBinding
 
 class FirstScreen : Fragment() {
 
     private var bindingFirstScreen: FragmentFirstScreenBinding? = null
-    private var bindingViewPager: FragmentViewPagerBinding? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,7 +23,6 @@ class FirstScreen : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         bindingFirstScreen = FragmentFirstScreenBinding.inflate(inflater, container, false)
-        bindingViewPager = FragmentViewPagerBinding.inflate(inflater, container, false)
         val view = bindingFirstScreen?.root
 
         val viewPager = activity?.findViewById<ViewPager2>(R.id.viewPager)

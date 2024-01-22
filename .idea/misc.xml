@@ -7,6 +7,7 @@
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/default_list.xml" value="0.2505" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/google_logo.xml" value="0.2265" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/green_splash.xml" value="0.2265" />
+        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1815" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.2355" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.2355" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
@@ -23,15 +24,15 @@
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_bar.xml" value="0.2368659420289855" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_dashboard.xml" value="0.4" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_first_screen.xml" value="0.264" />
-        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_login.xml" value="0.4" />
-        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_onboarding.xml" value="0.2" />
+        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_onboarding.xml" value="0.176" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_profile.xml" value="0.23731884057971014" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_register.xml" value="0.264" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_second_screen.xml" value="0.2" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_third_screen.xml" value="0.264" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/layout/fragment_view_pager.xml" value="0.264" />
-        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/menu/app_menu.xml" value="0.24895833333333334" />
+        <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/menu/app_menu.xml" value="0.1" />
         <entry key="..\:/Magang/Phincon/Bootcamp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
       </map>
     </option>
